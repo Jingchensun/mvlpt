@@ -21,3 +21,4 @@ nltk
 git+https://github.com/KaiyangZhou/Dassl.pytorch.git
 vision_datasets
 gdown
+safetensors
