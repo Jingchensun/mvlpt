@@ -10,7 +10,7 @@ This code is built on top of the toolbox [Dassl.pytorch](https://github.com/Kaiy
 
 #### Step 1 Install torch、Dassl、requirement.txt
 ```bash
-bash scripts/install
+bash scripts/install.sh
 ```
 
 
