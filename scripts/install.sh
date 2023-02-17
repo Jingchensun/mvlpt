@@ -10,3 +10,5 @@ python setup.py develop
 
 cd ..
 pip install -r requirements.txt
+
+mkdir output
