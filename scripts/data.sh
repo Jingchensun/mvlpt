@@ -1,4 +1,4 @@
-DATA=/shared/sheng/coop_data/
+DATA=coop_data/
 mkdir -p $DATA
 # DATA=/work/tianjun/few-shot-learning/prompt-moe/CoOp/data/
 cd $DATA

@@ -7,10 +7,10 @@
 # TRAINER=CoOp
 TRAINER=$1
 
-output_dir=~/opensource/ckpt/
+output_dir=output
 #root=/shared/sheng/coop_data
 # root=/tmp/ic/
-root=//tmp/coop_data
+root=coop_data
 
 # DATASET=$1 # ['hateful-memes', 'cifar-10', 'mnist', 'oxford-flower-102', 'oxford-iiit-pets', 'resisc45_clip', 'country211', 'food-101', 'stanford-cars', 'fgvc-aircraft-2013b-variants102', 'caltech-101', 'dtd', 'voc-2007-classification', 'cifar-100', 'patch-camelyon', 'rendered-sst2', 'gtsrb', 'eurosat_clip', 'fer-2013', 'kitti-distance']
 CFG=$2  # config file
