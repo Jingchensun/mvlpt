@@ -1,5 +1,7 @@
+pip install gdown
+
 DATA=coop_data/
-mkdir -p $DATA
+mkdir $DATA
 # DATA=/work/tianjun/few-shot-learning/prompt-moe/CoOp/data/
 cd $DATA
 
