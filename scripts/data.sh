@@ -110,5 +110,5 @@ wget -qO- https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/
 cd $DATA
 
 ## 4. Move the classname.txt to /imagenet/images
-cd ../scripts
+cd ../scripts/
 mv classnames.txt ../coop_data/imagenet/images
