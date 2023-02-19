@@ -26,9 +26,14 @@ pip install -r requirements.txt
 
 
 
-#### Step 2: Follow [DATASETS.md](DATASETS.md) to install the datasets from [CoOp](https://github.com/KaiyangZhou/CoOp/tree/main/datasets) for multitask prompt initialization. Or run the following script: 
+#### Step 2: Follow [DATASETS.md](DATASETS.md) to install the datasets from [CoOp](https://github.com/KaiyangZhou/CoOp/tree/main/datasets) for multitask prompt initialization. Or run the following script(11 datasets, include ImageNet): 
 ```bash
 bash scripts/data.sh
+```
+
+#### Step 2-2: If you only failed on the ImageNet, you can simply run the following script: 
+```bash
+bash scripts/imagenet.sh
 ```
 
 #### Stpe 3: Run the Promp learning on 11 CoCP Datasets
